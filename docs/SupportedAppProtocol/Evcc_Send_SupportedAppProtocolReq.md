@@ -3,6 +3,8 @@ layout: default
 title: Evcc.Send_SupportedAppProtocolReq_001()
 parent: SupportedAppProtocol API
 nav_order: 2
+permalink: /docs/SupportedAppProtocol
+
 ---
 
 # Code
