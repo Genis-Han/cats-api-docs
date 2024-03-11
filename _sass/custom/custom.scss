@@ -1,14 +1,39 @@
-// Print-only styles.
 @media print {
-    .side-bar,
-    .page-header {
-      display: none;
+
+    .site-footer,
+    .site-button,
+    #edit-this-page,
+    #back-to-top,
+    .site-nav,
+    .main-header {
+        display: none !important;
     }
-    .main-content {
-      max-width: auto;
-      margin: 1em;
+
+    .side-bar {
+        width: 33%;
+        height: auto;
+        border-right: 0 !important;
     }
-    .h2 {
-        font-size: 999px;
-      }
-  }
+
+    .site-header {
+        border-bottom: 1px solid $border-color;
+    }
+
+    .site-title {
+        font-size: 1rem !important;
+        font-weight: 700 !important;
+    }
+
+    .text-small {
+        font-size: 8pt !important;
+    }
+
+    pre.highlight {
+        border: 1px solid $border-color;
+    }
+
+    .main {
+        max-width: none;
+        margin-left: 0;
+    }
+}
