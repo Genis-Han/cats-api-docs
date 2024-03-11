@@ -34,12 +34,12 @@ var fun = function lang(l) {
 <ns0:supportedAppProtocolReq xmlns:ns0="urn:iso:15118:2:2010:AppProtocol"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 <AppProtocol>
-<ProtocolNamespace>urn:din:70121:2012:MsgDef</ProtocolNamespace>
-<VersionNumberMajor>1</VersionNumberMajor>
-<VersionNumberMinor>0</VersionNumberMinor>
-<SchemaID>1</SchemaID>
-<Priority>1</Priority>
-</AppProtocol>
+    <ProtocolNamespace>urn:din:70121:2012:MsgDef</ProtocolNamespace>
+    <VersionNumberMajor>1</VersionNumberMajor>
+    <VersionNumberMinor>0</VersionNumberMinor>
+    <SchemaID>1</SchemaID>
+    <Priority>1</Priority>
+    </AppProtocol>
 </ns0:supportedAppProtocolReq>
 ```
 {% endhighlight %}
