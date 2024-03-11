@@ -44,3 +44,9 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 ```
 {% endhighlight %}
 
+{% highlight markdown %}
+```Lua
+Evcc.Send_SupportedAppProtocolReq_001()
+```
+{% endhighlight %}
+
